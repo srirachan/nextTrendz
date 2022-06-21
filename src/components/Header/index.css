@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  font-family: Roboto;
+}
+.nav-details {
+  display: flex;
+  flex: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.website-logo {
+  width: 250px;
+  height: 70px;
+}
+
+.nav-item {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+}
+.logout-button {
+  height: 35px;
+  width: 80px;
+  background-color: #0b69ff;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 13px;
+}

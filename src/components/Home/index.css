@@ -1,0 +1,73 @@
+/* Write your CSS code here */
+* {
+  font-family: Roboto;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  font-family: Roboto;
+}
+.nav-details {
+  display: flex;
+  flex: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.website-logo {
+  width: 250px;
+  height: 70px;
+}
+
+.nav-item {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+}
+.logout-button {
+  height: 35px;
+  width: 80px;
+  background-color: #0b69ff;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.home-content-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-image {
+  height: 50vh;
+  width: 50vh;
+}
+.sub-container {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.home-heading {
+  font-size: 45px;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+.home-para {
+  padding: 15px;
+  padding-left: 0px;
+  line-height: 35px;
+}
+.shopnow-button {
+  height: 35px;
+  width: 120px;
+  background-color: #0b69ff;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
